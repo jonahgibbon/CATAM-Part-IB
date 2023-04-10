@@ -1,0 +1,92 @@
+
+% This LaTeX was auto-generated from MATLAB code.
+% To make changes, update the MATLAB code and republish this document.
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{color}
+
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+    
+    \begin{verbatim}
+format shortg
+
+%Set parameters
+n=100;
+mu=0;
+SigmaSquared=1;
+alpha=0.8;
+SampleSize=25;
+
+Counter=1;
+Data=zeros(SampleSize,4);
+
+disp([num2str(alpha),'% confidence interval is XBar plus or minus ',...
+    num2str(norminv((1+alpha)/2)*sqrt(SigmaSquared/n))])
+
+%Calculates random variables and fills table
+while Counter<=SampleSize
+    Variables=NormGenerate(n,mu,SigmaSquared);
+
+    Data(Counter,1)=sum(Variables)/n;
+    Data(Counter,2)=sum(Variables)/n-norminv((1+alpha)/2)*sqrt(SigmaSquared/n);
+    Data(Counter,3)=sum(Variables)/n+norminv((1+alpha)/2)*sqrt(SigmaSquared/n);
+    Data(Counter,4)=and(mu>=Data(Counter,2),mu<=Data(Counter,3));
+    Counter=Counter+1;
+end
+disp(Data)
+% latex(sym(vpa(Data)))
+
+Out=SampleSize-sum(Data(:,4));
+disp(['Number of cases outside interval: ',num2str(Out)])
+
+function Variables = NormGenerate(n,mu,SigmaSquared)
+    A=rand((n-mod(n,2))/2+mod(n,2),1);
+    B=rand((n-mod(n,2))/2+mod(n,2),1);
+    Phi=2*pi*A;
+    V=-2*log(1-B);
+    X=mu+SigmaSquared*sqrt(V).*cos(Phi);
+    Y=mu+SigmaSquared*sqrt(V).*sin(Phi);
+    Variables=[X;Y(1:n-(n-mod(n,2))/2-mod(n,2),1)];
+end
+\end{verbatim}
+
+        \color{lightgray} \begin{verbatim}0.8% confidence interval is XBar plus or minus 0.12816
+      -0.1293     -0.25745   -0.0011409            0
+     0.093018    -0.035137      0.22117            1
+    -0.011446      -0.1396      0.11671            1
+     -0.24646     -0.37461      -0.1183            0
+     -0.11413     -0.24229     0.014021            1
+      0.13423    0.0060793      0.26239            0
+    -0.016961     -0.14512      0.11119            1
+    0.0098846     -0.11827      0.13804            1
+      0.12275   -0.0054082       0.2509            1
+      0.13779    0.0096385      0.26595            0
+    -0.005299     -0.13345      0.12286            1
+     0.018882     -0.10927      0.14704            1
+    -0.070929     -0.19908     0.057226            1
+      0.14401      0.01586      0.27217            0
+      0.15138     0.023222      0.27953            0
+    -0.079547      -0.2077     0.048608            1
+     0.028469    -0.099686      0.15662            1
+    -0.028911     -0.15707     0.099244            1
+     0.082675     -0.04548      0.21083            1
+     -0.20987     -0.33802    -0.081714            0
+    -0.096775     -0.22493      0.03138            1
+     0.092264    -0.035891      0.22042            1
+    -0.016759     -0.14491       0.1114            1
+      0.06636    -0.061795      0.19452            1
+    0.0088133     -0.11934      0.13697            1
+
+Number of cases outside interval: 7
+\end{verbatim} \color{black}
+    
+
+
+\end{document}
+    

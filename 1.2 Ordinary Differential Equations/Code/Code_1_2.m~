@@ -1,0 +1,60 @@
+data=Euler(0,1,1,1/50);
+plot(data(:,1),data(:,2))
+hold on
+% data=RK4(0,1,0,0.1);
+% plot(data(:,1),data(:,2))
+plot(linspace(0,1),y(linspace(0,1)))
+% %Adds labels and saves the image
+% legend({'Euler Method','Runge-Kutta Method','y(x)'},'location',...
+%     'northeast')
+% xlabel('x')
+% ylabel('y')
+% print('Image_1_1','-depsc')
+
+function data = Euler(x_0,x_n,y_0,h)
+%Creates a table to be filled
+    data=zeros(ceil((x_n-x_0)/h)+1,5);
+    data(1,:)=[x_0,y_0,y(x_0),y_0-y(x_0),0];
+    counter=2;
+%Iterates through the rows filling them
+    while counter<=ceil((x_n-x_0)/h)+1
+        data(counter,:)=[(counter-1)*h+x_0,...
+            data(counter-1,2)+h*f((counter-2)*h+x_0,data(counter-1,2)),...
+            y((counter-1)*h+x_0),...
+            data(counter-1,2)+h*f((counter-2)*h+x_0,data(counter-1,2))-...
+            y((counter-1)*h+x_0),...
+            (data(counter-1,2)+h*f((counter-2)*h+x_0,data(counter-1,2))-...
+            y((counter-1)*h+x_0))/data(counter-1,4)];
+        counter=counter+1;
+    end
+end
+
+function data = RK4(x_0,x_n,y_0,h)
+%Follows a similar idea to the Euler function
+    data=zeros(ceil((x_n-x_0)/h)+1,5);
+    data(1,:)=[x_0,y_0,y(x_0),y_0-y(x_0),0];
+    counter=2;
+    while counter<=ceil((x_n-x_0)/h)+1
+        k1=h*f((counter-2)*h+x_0,data(counter-1,2));
+        k2=h*f((counter-2+1/2)*h+x_0,data(counter-1,2)+1/2*k1);
+        k3=h*f((counter-2+1/2)*h+x_0,data(counter-1,2)+1/2*k2);
+        k4=h*f((counter-2+1)*h+x_0,data(counter-1,2)+k3);
+        data(counter,:)=[(counter-1)*h+x_0,...
+            data(counter-1,2)+1/6*(k1+2*k2+2*k3+k4),...
+            y((counter-1)*h+x_0),...
+            data(counter-1,2)+1/6*(k1+2*k2+2*k3+k4)-y((counter-1)*h+x_0),...
+            (data(counter-1,2)+1/6*(k1+2*k2+2*k3+k4)-y((counter-1)*h+x_0))/...
+            data(counter-1,4)];
+        counter=counter+1;
+    end   
+end
+
+%These two functions were created to stop repeatedly defining them in the
+%above
+function z = f(x,y)
+    z = -1*y/(1+x2
+end
+
+function z = y(x)
+    z= (1;
+end

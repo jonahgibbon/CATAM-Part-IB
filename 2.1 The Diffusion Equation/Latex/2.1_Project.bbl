@@ -1,0 +1,90 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{AMES199250}{incollection}{}
+    \name{author}{1}{}{%
+      {{hash=AWF}{%
+         family={AMES},
+         familyi={A\bibinitperiod},
+         given={WILLIAM\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=AWF}{%
+         family={AMES},
+         familyi={A\bibinitperiod},
+         given={WILLIAM\bibnamedelima F.},
+         giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \strng{namehash}{AWF1}
+    \strng{fullhash}{AWF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{booktitle}{Numerical Methods for Partial Differential Equations
+  (Third Edition)}
+    \verb{doi}
+    \verb https://doi.org/10.1016/B978-0-08-057130-0.50009-9
+    \endverb
+    \field{edition}{Third Edition}
+    \field{isbn}{978-0-08-057130-0}
+    \field{pages}{55\bibrangedash 57}
+    \field{series}{Computer Science and Scientific Computing}
+    \field{title}{2 - Parabolic Equations}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/B978008057130050009
+    \verb 9
+    \endverb
+    \list{location}{1}{%
+      {San Diego}%
+    }
+    \field{year}{1992}
+  \endentry
+
+  \entry{trefethen1996finite}{article}{}
+    \name{author}{1}{}{%
+      {{hash=TLN}{%
+         family={Trefethen},
+         familyi={T\bibinitperiod},
+         given={Lloyd\bibnamedelima Nicholas},
+         giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{2}{%
+      {Cornell University-Department of Computer Science}%
+      {Center for Applied~…}%
+    }
+    \strng{namehash}{TLN1}
+    \strng{fullhash}{TLN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{title}{Finite difference and spectral methods for ordinary and
+  partial differential equations}
+    \field{year}{1996}
+  \endentry
+\enddatalist
+\endinput

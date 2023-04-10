@@ -1,0 +1,88 @@
+
+% This LaTeX was auto-generated from MATLAB code.
+% To make changes, update the MATLAB code and republish this document.
+
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{color}
+
+\sloppy
+\definecolor{lightgray}{gray}{0.5}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+    
+    \begin{verbatim}
+format long
+LowerP=0;
+UpperP=3;
+epsilon=7.3*10^(-7);
+%This records all the iterates
+iterates=[0 LowerP g(LowerP)];
+if g(LowerP)==g(UpperP)
+    error('The g value must differ at these bounds')
+end
+
+if g(LowerP)<g(UpperP)
+    gradient=+1;
+else
+    gradient=-1;
+end
+
+while true
+    P=(g(UpperP)*LowerP-g(LowerP)*UpperP)/(g(UpperP)-g(LowerP));
+    iterates=[iterates;iterates(end,1)+1 P g(P)];
+    if abs(g(P))<epsilon
+        break
+    else
+        %This checks what the gradient is at the root
+        if g(LowerP)<g(UpperP)
+            gradient=+1;
+        else
+            gradient=-1;
+        end
+        %This determines which bound should be replaced
+        if g(P)*gradient<0
+            LowerP=P;
+        else
+            UpperP=P;
+        end
+    end
+end
+
+disp(iterates)
+digits(8)
+latex(sym(vpa(iterates)))
+
+function answer=g(x)
+    answer=x^2-3;
+end
+\end{verbatim}
+
+        \color{lightgray} \begin{verbatim}                   0                   0  -3.000000000000000
+   1.000000000000000   1.000000000000000  -2.000000000000000
+   2.000000000000000   1.500000000000000  -0.750000000000000
+   3.000000000000000   1.666666666666667  -0.222222222222222
+   4.000000000000000   1.714285714285714  -0.061224489795918
+   5.000000000000000   1.727272727272728  -0.016528925619834
+   6.000000000000000   1.730769230769231  -0.004437869822486
+   7.000000000000000   1.731707317073171  -0.001189767995240
+   8.000000000000000   1.731958762886598  -0.000318843660326
+   9.000000000000000   1.732026143790850  -0.000085437225000
+  10.000000000000000   1.732044198895027  -0.000022893074083
+  11.000000000000000   1.732049036777583  -0.000006134197847
+  12.000000000000000   1.732050333086602  -0.000001643654590
+  13.000000000000000   1.732050680431722  -0.000000440416010
+
+
+ans =
+
+    '\left(\begin{array}{ccc} 0 & 0 & -3.0\\ 1.0 & 1.0 & -2.0\\ 2.0 & 1.5 & -0.75\\ 3.0 & 1.6666667 & -0.22222222\\ 4.0 & 1.7142857 & -0.06122449\\ 5.0 & 1.7272727 & -0.016528926\\ 6.0 & 1.7307692 & -0.0044378698\\ 7.0 & 1.7317073 & -0.001189768\\ 8.0 & 1.7319588 & -0.00031884366\\ 9.0 & 1.7320261 & -0.000085437225\\ 10.0 & 1.7320442 & -0.000022893074\\ 11.0 & 1.732049 & -0.0000061341978\\ 12.0 & 1.7320503 & -0.0000016436546\\ 13.0 & 1.7320507 & -0.00000044041601 \end{array}\right)'
+
+\end{verbatim} \color{black}
+    
+
+
+\end{document}
+    

@@ -1,0 +1,76 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nty/global//global/global}
+  \entry{TheoryMG}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=GX}{%
+         family={Geng},
+         familyi={G\bibinitperiod},
+         given={Xi},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GX1}
+    \strng{fullhash}{GX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{chapter}{2. The uniqueness theorem}
+    \field{title}{The Mathematical Theory of Moment Generating Functions}
+    \verb{url}
+    \verb https://researchers.ms.unimelb.edu.au/~xgge@unimelb/Files/Notes/The%2
+    \verb 0Mathematical%20Theory%20of%20Moment%20Generating%20Functions.pdf
+    \endverb
+  \endentry
+
+  \entry{Rosenlight1969}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RM}{%
+         family={Rosenlight},
+         familyi={R\bibinitperiod},
+         given={Maxwell},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {eng}%
+    }
+    \list{publisher}{1}{%
+      {Institut des Hautes Études Scientifiques}%
+    }
+    \keyw{commutative algebra}
+    \strng{namehash}{RM1}
+    \strng{fullhash}{RM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{pages}{15\bibrangedash 22}
+    \field{title}{On the explicit solvability of certain transcendental
+  equations}
+    \verb{url}
+    \verb http://eudml.org/doc/103891
+    \endverb
+    \field{volume}{36}
+    \field{journaltitle}{Publications Mathématiques de l'IHÉS}
+    \field{year}{1969}
+  \endentry
+\enddatalist
+\endinput

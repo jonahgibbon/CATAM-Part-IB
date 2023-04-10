@@ -1,0 +1,833 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.8.21)  28 APR 2021 11:37
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"2.4 Project.tex"
+(./2.4 Project.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen103
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks17
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks18
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count100
+\calc@Bcount=\count101
+\calc@Adimen=\dimen112
+\calc@Bdimen=\dimen113
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count102
+\calc@Cskip=\skip48
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
+)
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
+\g_MT_multlinerow_int=\count103
+\l_MT_multwidth_dim=\dimen114
+\origjot=\skip49
+\l_MT_shortvdotswithinadjustabove_dim=\dimen115
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen116
+\l_MT_above_intertext_sep=\dimen117
+\l_MT_below_intertext_sep=\dimen118
+\l_MT_above_shortintertext_sep=\dimen119
+\l_MT_below_shortintertext_sep=\dimen120
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/preprint/fullpage.sty
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip50
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip51
+\f@nch@O@elh=\skip52
+\f@nch@O@erh=\skip53
+\f@nch@O@olh=\skip54
+\f@nch@O@orh=\skip55
+\f@nch@O@elf=\skip56
+\f@nch@O@erf=\skip57
+\f@nch@O@olf=\skip58
+\f@nch@O@orf=\skip59
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2019/01/15
+
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count104
+\FV@InFile=\read1
+\FV@TabBox=\box29
+\c@FancyVerbLine=\count105
+\FV@StepNumber=\count106
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count107
+\float@exts=\toks22
+\float@box=\box30
+\@float@everytoks=\toks23
+\@floatcapt=\box31
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)))))
+\c@section@level=\count108
+LaTeX Info: Redefining \ref on input line 355.
+LaTeX Info: Redefining \pageref on input line 355.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count109
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count110
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count111
+\c@listtotal=\count112
+\c@listcount=\count113
+\c@liststart=\count114
+\c@liststop=\count115
+\c@citecount=\count116
+\c@citetotal=\count117
+\c@multicitecount=\count118
+\c@multicitetotal=\count119
+\c@instcount=\count120
+\c@maxnames=\count121
+\c@minnames=\count122
+\c@maxitems=\count123
+\c@minitems=\count124
+\c@citecounter=\count125
+\c@maxcitecounter=\count126
+\c@savedcitecounter=\count127
+\c@uniquelist=\count128
+\c@uniquename=\count129
+\c@refsection=\count130
+\c@refsegment=\count131
+\c@maxextratitle=\count132
+\c@maxextratitleyear=\count133
+\c@maxextraname=\count134
+\c@maxextradate=\count135
+\c@maxextraalpha=\count136
+\c@abbrvpenalty=\count137
+\c@highnamepenalty=\count138
+\c@lownamepenalty=\count139
+\c@maxparens=\count140
+\c@parenlevel=\count141
+\blx@tempcnta=\count142
+\blx@tempcntb=\count143
+\blx@tempcntc=\count144
+\blx@maxsection=\count145
+\blx@maxsegment@0=\count146
+\blx@notetype=\count147
+\blx@parenlevel@text=\count148
+\blx@parenlevel@foot=\count149
+\blx@sectionciteorder@0=\count150
+\blx@entrysetcounter=\count151
+\labelnumberwidth=\skip60
+\labelalphawidth=\skip61
+\biblabelsep=\skip62
+\bibitemsep=\skip63
+\bibnamesep=\skip64
+\bibinitsep=\skip65
+\bibparsep=\skip66
+\bibhang=\skip67
+\blx@bcfin=\read2
+\blx@bcfout=\write4
+\c@mincomprange=\count152
+\c@maxcomprange=\count153
+\c@mincompwidth=\count154
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-dm.def
+File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authortitle-ibid.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count155
+\c@savedafterword=\count156
+\c@annotator=\count157
+\c@savedannotator=\count158
+\c@author=\count159
+\c@savedauthor=\count160
+\c@bookauthor=\count161
+\c@savedbookauthor=\count162
+\c@commentator=\count163
+\c@savedcommentator=\count164
+\c@editor=\count165
+\c@savededitor=\count166
+\c@editora=\count167
+\c@savededitora=\count168
+\c@editorb=\count169
+\c@savededitorb=\count170
+\c@editorc=\count171
+\c@savededitorc=\count172
+\c@foreword=\count173
+\c@savedforeword=\count174
+\c@holder=\count175
+\c@savedholder=\count176
+\c@introduction=\count177
+\c@savedintroduction=\count178
+\c@namea=\count179
+\c@savednamea=\count180
+\c@nameb=\count181
+\c@savednameb=\count182
+\c@namec=\count183
+\c@savednamec=\count184
+\c@translator=\count185
+\c@savedtranslator=\count186
+\c@shortauthor=\count187
+\c@savedshortauthor=\count188
+\c@shorteditor=\count189
+\c@savedshorteditor=\count190
+\c@labelname=\count191
+\c@savedlabelname=\count192
+\c@institution=\count193
+\c@savedinstitution=\count194
+\c@lista=\count195
+\c@savedlista=\count196
+\c@listb=\count197
+\c@savedlistb=\count198
+\c@listc=\count199
+\c@savedlistc=\count266
+\c@listd=\count267
+\c@savedlistd=\count268
+\c@liste=\count269
+\c@savedliste=\count270
+\c@listf=\count271
+\c@savedlistf=\count272
+\c@location=\count273
+\c@savedlocation=\count274
+\c@organization=\count275
+\c@savedorganization=\count276
+\c@origlocation=\count277
+\c@savedoriglocation=\count278
+\c@origpublisher=\count279
+\c@savedorigpublisher=\count280
+\c@publisher=\count281
+\c@savedpublisher=\count282
+\c@language=\count283
+\c@savedlanguage=\count284
+\c@origlanguage=\count285
+\c@savedoriglanguage=\count286
+\c@pageref=\count287
+\c@savedpageref=\count288
+\shorthandwidth=\skip68
+\shortjournalwidth=\skip69
+\shortserieswidth=\skip70
+\shorttitlewidth=\skip71
+\shortauthorwidth=\skip72
+\shorteditorwidth=\skip73
+\locallabelnumberwidth=\skip74
+\locallabelalphawidth=\skip75
+\localshorthandwidth=\skip76
+\localshortjournalwidth=\skip77
+\localshortserieswidth=\skip78
+\localshorttitlewidth=\skip79
+\localshortauthorwidth=\skip80
+\localshorteditorwidth=\skip81
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/blx-bibtex.def
+File: blx-bibtex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+
+
+Package biblatex Warning: Using fall-back BibTeX(8) backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+\c@textcitecount=\count289
+\c@textcitetotal=\count290
+\c@textcitemaxnames=\count291
+\c@biburlnumpenalty=\count292
+\c@biburlucpenalty=\count293
+\c@biburllcpenalty=\count294
+\c@smartand=\count295
+)
+Package biblatex Info: Trying to load bibliography style 'authortitle-ibid'...
+Package biblatex Info: ... file 'authortitle-ibid.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authortitle-ibid.bbx
+File: authortitle-ibid.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx
+File: authortitle.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count296
+\c@bbx:relatedtotal=\count297
+)))
+Package biblatex Info: Trying to load citation style 'authortitle-ibid'...
+Package biblatex Info: ... file 'authortitle-ibid.cbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/cbx/authortitle-ibid.cbx
+File: authortitle-ibid.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
+)
+\@quotelevel=\count298
+\@quotereset=\count299
+
+(./2.4 Project.aux)
+\openout1 = `"2.4 Project.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 36.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count300
+\scratchdimen=\dimen123
+\scratchbox=\box32
+\nofMPsegments=\count301
+\nofMParguments=\count302
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count303
+\MPscratchDim=\dimen124
+\MPnumerator=\count304
+\makeMPintoPDFobject=\count305
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Input encoding 'utf8' specified.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `2.4_Project-blx.bib'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"2.4 Project".bbl' found.
+
+(./2.4 Project.bbl)
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Package epstopdf Info: Source file: <./Graphics/Image_3_1.eps>
+(epstopdf)                    date: 2021-03-23 10:40:56
+(epstopdf)                    size: 16278 bytes
+(epstopdf)             Output file: <./Graphics/Image_3_1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-03-23 12:41:23
+(epstopdf)                    size: 6548 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_3_1-eps-c
+onverted-to.pdf ./Graphics/Image_3_1.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_3_1-eps-converted-to.pdf, id=1, 478.78876pt x 376.40625pt>
+File: ./Graphics/Image_3_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_3_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_3_1-eps-converted-to.pdf  used on inp
+ut line 53.
+(pdftex.def)             Requested size: 284.52756pt x 223.68593pt.
+ [1
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Graph
+ics/Image_3_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Graphics/Image_3_2.eps>
+(epstopdf)                    date: 2021-04-01 14:08:23
+(epstopdf)                    size: 21693 bytes
+(epstopdf)             Output file: <./Graphics/Image_3_2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-04-01 14:10:49
+(epstopdf)                    size: 7957 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_3_2-eps-c
+onverted-to.pdf ./Graphics/Image_3_2.eps>
+(epstopdf)             \includegraphics on input line 74.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_3_2-eps-converted-to.pdf, id=20, 478.78876pt x 376.40625pt>
+File: ./Graphics/Image_3_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_3_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_3_2-eps-converted-to.pdf  used on inp
+ut line 74.
+(pdftex.def)             Requested size: 284.52756pt x 223.68593pt.
+ [2 <./Graphics/Image_3_2-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+Package epstopdf Info: Source file: <./Graphics/Image_7_1.eps>
+(epstopdf)                    date: 2021-04-26 16:04:11
+(epstopdf)                    size: 21945 bytes
+(epstopdf)             Output file: <./Graphics/Image_7_1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-04-26 16:04:57
+(epstopdf)                    size: 8503 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_7_1-eps-c
+onverted-to.pdf ./Graphics/Image_7_1.eps>
+(epstopdf)             \includegraphics on input line 129.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_7_1-eps-converted-to.pdf, id=32, 477.785pt x 377.41pt>
+File: ./Graphics/Image_7_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_7_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_7_1-eps-converted-to.pdf  used on inp
+ut line 129.
+(pdftex.def)             Requested size: 284.52756pt x 224.74889pt.
+[3] [4 <./Graphics/Image_7_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Graphics/Image_8_1.eps>
+(epstopdf)                    date: 2021-03-24 00:39:47
+(epstopdf)                    size: 58121 bytes
+(epstopdf)             Output file: <./Graphics/Image_8_1-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-03-24 00:41:25
+(epstopdf)                    size: 106891 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_8_1-eps-c
+onverted-to.pdf ./Graphics/Image_8_1.eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_8_1-eps-converted-to.pdf, id=48, 563.10374pt x 422.57875pt>
+File: ./Graphics/Image_8_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_8_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_8_1-eps-converted-to.pdf  used on inp
+ut line 156.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+Package epstopdf Info: Source file: <./Graphics/Image_8_2.eps>
+(epstopdf)                    date: 2021-03-24 00:39:48
+(epstopdf)                    size: 48304 bytes
+(epstopdf)             Output file: <./Graphics/Image_8_2-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-03-24 00:41:25
+(epstopdf)                    size: 94431 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_8_2-eps-c
+onverted-to.pdf ./Graphics/Image_8_2.eps>
+(epstopdf)             \includegraphics on input line 161.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_8_2-eps-converted-to.pdf, id=49, 563.10374pt x 422.57875pt>
+File: ./Graphics/Image_8_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_8_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_8_2-eps-converted-to.pdf  used on inp
+ut line 161.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+Package epstopdf Info: Source file: <./Graphics/Image_8_3.eps>
+(epstopdf)                    date: 2021-03-24 00:39:48
+(epstopdf)                    size: 51309 bytes
+(epstopdf)             Output file: <./Graphics/Image_8_3-eps-converted-to.pdf>
+
+(epstopdf)                    date: 2021-03-24 00:41:26
+(epstopdf)                    size: 102419 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_8_3-eps-c
+onverted-to.pdf ./Graphics/Image_8_3.eps>
+(epstopdf)             \includegraphics on input line 166.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_8_3-eps-converted-to.pdf, id=50, 563.10374pt x 422.57875pt>
+File: ./Graphics/Image_8_3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_8_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_8_3-eps-converted-to.pdf  used on inp
+ut line 166.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+ [5 <./Graphics/Image_8_1-eps-converted-to.pdf> <./Graphics/Image_8_2-eps-conve
+rted-to.pdf>] [6 <./Graphics/Image_8_3-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Graphics/Image_8_25.eps>
+(epstopdf)                    date: 2021-04-27 15:42:56
+(epstopdf)                    size: 35438 bytes
+(epstopdf)             Output file: <./Graphics/Image_8_25-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-04-27 15:46:37
+(epstopdf)                    size: 92639 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_8_25-eps-
+converted-to.pdf ./Graphics/Image_8_25.eps>
+(epstopdf)             \includegraphics on input line 228.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_8_25-eps-converted-to.pdf, id=75, 562.1pt x 421.575pt>
+File: ./Graphics/Image_8_25-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_8_25-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_8_25-eps-converted-to.pdf  used on in
+put line 228.
+(pdftex.def)             Requested size: 341.43306pt x 256.07324pt.
+ [7]
+Overfull \hbox (4.61592pt too wide) in paragraph at lines 232--233
+[]\OT1/cmr/m/n/10 To find a $100\OML/cmm/m/it/10 \OT1/cmr/m/n/10 %$ con-fi-den
+ce in-ter-val we first must con-struct a pivot quan-tity. Sup-pose $\OML/cmm/m/
+it/10 X[]; X[]; [] ; X[] \OMS/cmsy/m/n/10 ^^X
+ []
+
+[8 <./Graphics/Image_8_25-eps-converted-to.pdf>] [9]
+Package epstopdf Info: Source file: <./Graphics/Image_13_1_1.eps>
+(epstopdf)                    date: 2021-04-02 22:37:35
+(epstopdf)                    size: 42274 bytes
+(epstopdf)             Output file: <./Graphics/Image_13_1_1-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-04-02 22:39:14
+(epstopdf)                    size: 39526 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_13_1_1-ep
+s-converted-to.pdf ./Graphics/Image_13_1_1.eps>
+(epstopdf)             \includegraphics on input line 299.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_13_1_1-eps-converted-to.pdf, id=98, 563.10374pt x 422.57875pt
+>
+File: ./Graphics/Image_13_1_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_13_1_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_13_1_1-eps-converted-to.pdf  used on 
+input line 299.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+Package epstopdf Info: Source file: <./Graphics/Image_13_1_2.eps>
+(epstopdf)                    date: 2021-04-02 22:37:50
+(epstopdf)                    size: 40474 bytes
+(epstopdf)             Output file: <./Graphics/Image_13_1_2-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-04-02 22:39:14
+(epstopdf)                    size: 37779 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_13_1_2-ep
+s-converted-to.pdf ./Graphics/Image_13_1_2.eps>
+(epstopdf)             \includegraphics on input line 304.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_13_1_2-eps-converted-to.pdf, id=99, 563.10374pt x 422.57875pt
+>
+File: ./Graphics/Image_13_1_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_13_1_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_13_1_2-eps-converted-to.pdf  used on 
+input line 304.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+Package epstopdf Info: Source file: <./Graphics/Image_13_1_3.eps>
+(epstopdf)                    date: 2021-04-02 22:38:14
+(epstopdf)                    size: 41816 bytes
+(epstopdf)             Output file: <./Graphics/Image_13_1_3-eps-converted-to.p
+df>
+(epstopdf)                    date: 2021-04-02 22:39:15
+(epstopdf)                    size: 78375 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_13_1_3-ep
+s-converted-to.pdf ./Graphics/Image_13_1_3.eps>
+(epstopdf)             \includegraphics on input line 309.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_13_1_3-eps-converted-to.pdf, id=100, 563.10374pt x 422.57875p
+t>
+File: ./Graphics/Image_13_1_3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_13_1_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_13_1_3-eps-converted-to.pdf  used on 
+input line 309.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+ [10 <./Graphics/Image_13_1_1-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Graphics/Image_13_2.eps>
+(epstopdf)                    date: 2021-04-02 22:42:43
+(epstopdf)                    size: 37751 bytes
+(epstopdf)             Output file: <./Graphics/Image_13_2-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-04-02 22:43:49
+(epstopdf)                    size: 36742 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_13_2-eps-
+converted-to.pdf ./Graphics/Image_13_2.eps>
+(epstopdf)             \includegraphics on input line 316.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_13_2-eps-converted-to.pdf, id=112, 563.10374pt x 422.57875pt>
+
+File: ./Graphics/Image_13_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_13_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_13_2-eps-converted-to.pdf  used on in
+put line 316.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+Package epstopdf Info: Source file: <./Graphics/Image_13_3.eps>
+(epstopdf)                    date: 2021-04-02 22:42:43
+(epstopdf)                    size: 35908 bytes
+(epstopdf)             Output file: <./Graphics/Image_13_3-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2021-04-02 22:43:50
+(epstopdf)                    size: 35523 bytes
+(epstopdf)             Command: <repstopdf --outfile=./Graphics/Image_13_3-eps-
+converted-to.pdf ./Graphics/Image_13_3.eps>
+(epstopdf)             \includegraphics on input line 321.
+Package epstopdf Info: Output file is already uptodate.
+<./Graphics/Image_13_3-eps-converted-to.pdf, id=113, 563.10374pt x 422.57875pt>
+
+File: ./Graphics/Image_13_3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Graphics/Image_13_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Graphics/Image_13_3-eps-converted-to.pdf  used on in
+put line 321.
+(pdftex.def)             Requested size: 284.52756pt x 213.51987pt.
+ [11 <./Graphics/Image_13_1_2-eps-converted-to.pdf> <./Graphics/Image_13_1_3-ep
+s-converted-to.pdf>] [12 <./Graphics/Image_13_2-eps-converted-to.pdf> <./Graphi
+cs/Image_13_3-eps-converted-to.pdf>] [13] [14]
+[15] [16] [17] [18] [19] [20] 
+AED: lastpage setting LastPage
+(./2.4 Project.aux)
+Package logreq Info: Writing requests to '"2.4 Project".run.xml'.
+\openout1 = `"2.4 Project.run.xml"'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10496 strings out of 492616
+ 182247 string characters out of 6129481
+ 455577 words of memory out of 5000000
+ 14254 multiletter control sequences out of 15000+600000
+ 10984 words of font info for 43 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,12n,45p,1630b,1179s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex
+8.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/lo
+cal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2019/texmf
+-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "2.4 Project.pdf" (20 pages, 906016 bytes).
+PDF statistics:
+ 247 PDF objects out of 1000 (max. 8388607)
+ 148 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
